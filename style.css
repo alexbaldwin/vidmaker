@@ -1,0 +1,24 @@
+body {
+  text-rendering: optimizeLegibility;
+  font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.pitch {
+  background: url("background.png") repeat;
+  padding:120px 0;
+}
+
+.pitch, .pitch h1 {
+  color:#fff;
+}
+
+.pitch h1 {
+  text-shadow:0 1px 2px #000;
+  font-size:3em;
+  line-height:1.12em;
+  margin-bottom:.5em;
+}
+
+footer {
+  margin-top:1em;
+}
