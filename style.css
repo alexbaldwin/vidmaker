@@ -10,6 +10,7 @@ body {
    background-size:cover;
   padding:120px 0 0;
   box-shadow: 0 0 10px #333;
+  min-height:350px;
 }
 
 .pitch, .pitch h1 {
@@ -17,9 +18,19 @@ body {
 }
 
 .pitch h1 {
-  font-size:3em;
-  line-height:1.12em;
+  font-size:4em;
+  line-height:1.2em;
   margin:.5em 0;
+}
+
+.pitch p {
+  font-size:2em;
+  line-height:1.4em;
+  opacity:.5;
+}
+
+.pitch a {
+  margin-bottom:4em;
 }
 
 .screenshot {
@@ -27,5 +38,13 @@ body {
 }
 footer {
   border-top:1px solid rgba(0,0,0,.1);
-  padding-top:2em;
+  padding-top:4em;
+}
+
+.quiet {
+  opacity:.5;
+}
+
+.like, .tweet, .plus {
+  float:left;
 }
