@@ -13,8 +13,9 @@ body {
   min-height:350px;
 }
 
-.pitch, .pitch h1 {
+.pitch p, .pitch h1 {
   color:#fff;
+  text-shadow:0 1px 6px #333;
 }
 
 .pitch h1 {
@@ -26,7 +27,7 @@ body {
 .pitch p {
   font-size:2em;
   line-height:1.4em;
-  opacity:.5;
+  opacity:.6;
 }
 
 .pitch a {
